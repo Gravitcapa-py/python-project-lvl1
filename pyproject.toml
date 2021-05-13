@@ -8,7 +8,7 @@ description = ""
 authors = ["Gravitcapa-py <gravitcapa.py@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
