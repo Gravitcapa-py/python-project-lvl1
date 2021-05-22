@@ -16,7 +16,7 @@ def progression(name):
         result = base_list[position]
         base_list[position] = '..'
         print('Question:', end=' ')
-        print(*base_list, sep=', ')
+        print(*base_list, sep=' ')
         answer = prompt.string('Your answer: ')
         base_list[position] = result
         if result == int(answer):
