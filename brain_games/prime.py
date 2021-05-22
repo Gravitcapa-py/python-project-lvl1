@@ -21,4 +21,4 @@ def prime(name):
             print("Let's try again, " + name + "!")
             break
     else:
-        print("Congratulations, " + name)
+        print("Congratulations, {}!".format(name))
