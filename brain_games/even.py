@@ -8,7 +8,8 @@ def is_even(name):
         num = random.randrange(1, 100)
         print("Question: " + str(num))
         answer2 = prompt.string('Your answer: ')
-        if (num % 2 == 0 and answer2 == "yes") or (num % 2 == 1 and answer2 == "no"):
+        if (num % 2 == 0 and answer2 == "yes") or \
+                (num % 2 == 1 and answer2 == "no"):
             print("Correct!")
         elif answer2 == "yes":
             print(answer2 + " is wrong answer ;(. Correct answer was 'no'.")

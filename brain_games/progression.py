@@ -22,7 +22,8 @@ def progression(name):
         if result == int(answer):
             print("Correct!")
         else:
-            print("{} is wrong answer ;(. Correct answer was {}.".format(answer, result))
+            print("{} is wrong answer ;(. Correct answer was {}."
+                  .format(answer, result))
             print("Let's try again, " + name + "!")
             break
     else:
