@@ -3,9 +3,9 @@ import prompt
 
 
 def prime(name):
-    print('What number is missing in the progression?')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for _ in [1, 2, 3]:
-        number = random.randint(1, 9)
+        number = random.randint(2, 9)
         d = 2
         while number % d != 0:
             d += 1
